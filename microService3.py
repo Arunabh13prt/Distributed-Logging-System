@@ -1,3 +1,4 @@
+
 import socket
 import json
 import time
@@ -5,7 +6,7 @@ import uuid
 from datetime import datetime
 
 # Configuration for Fluentd
-FLUENTD_HOST = '192.168.56.101'  # IP of SEED VM
+FLUENTD_HOST = '192.168.56.102'  # IP of SEED VM
 FLUENTD_PORT = 24228             # Port for Microservice 3
 
 # Function to generate a unique log ID
