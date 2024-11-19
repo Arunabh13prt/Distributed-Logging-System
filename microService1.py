@@ -67,4 +67,3 @@ if __name__ == "__main__":
         send_log("ERROR", "Error occurred in service.", service_name, node_id)
         send_heartbeat(node_id, "UP")
         time.sleep(5)
-        time.sleep(5)
